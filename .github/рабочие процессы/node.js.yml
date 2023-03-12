@@ -1,0 +1,21 @@
+name: CI
+
+on:
+push:
+branches: [ "main" ]
+pull_request:
+branches: [ "main" ]
+
+jobs:
+my_build_job:
+runs-on:
+steps:
+-uses:
+-name:
+run: |
+-name:
+run: |
+-name:
+run: |
+-name:
+run: |
